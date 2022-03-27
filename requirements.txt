@@ -15,3 +15,5 @@ pytest
 black
 requests
 dill
+databricks
+databricks-automl
