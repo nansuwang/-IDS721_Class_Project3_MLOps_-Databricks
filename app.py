@@ -28,13 +28,12 @@ def predict_beer(data: beer):
     temp_max_c = data["temp_max_c"]
     precip_mm = data["precip_mm"]
     beer_cons_liters = data["beer_cons_liters"]
-    # print(classifier.predict([[variance,skewness,curtosis,entropy]]))
     prediction = classifier.predict(
         [[temp_median_c, temp_min_c, temp_max_c, precip_mm, beer_cons_liters]]
     )
     prediction = prediction[0]
-    res = "Yes" if prediction == 1 else "No"
-    return {"Is the input day a weekend? Answer: ": res}
+    # res = "Yes" if prediction == 1 else "No"
+    return {"Is the input day a weekend? Answer: ": prediction}
 
 
 if __name__ == "__main__":
