@@ -6,7 +6,7 @@ test:
 	python -m pytest -vv test.py
 
 format:
-	black app.py
+	black prepocessing.py
 
 lint:
 	pylint --disable=R,C test.py
