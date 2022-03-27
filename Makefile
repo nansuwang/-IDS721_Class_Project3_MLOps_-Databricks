@@ -9,6 +9,6 @@ format:
 	black app.py
 
 lint:
-	pylint --disable=R,C preprocessing.py
+	pylint --disable=R,C test.py
 
 all: install lint test

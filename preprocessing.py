@@ -20,7 +20,7 @@ df.rename(
 df.drop("Date", axis=1, inplace=True)
 
 # drop empty rows
-# df = df.dropna()
+df = df.dropna()
 
 # clean the data and frame the data types
 df["temp_median_c"] = df["temp_median_c"].str.replace(",", ".")
