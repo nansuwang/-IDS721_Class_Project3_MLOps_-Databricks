@@ -6,7 +6,7 @@ from beer import beer
 from fastapi import FastAPI
 
 app = FastAPI()
-pickle_in = open("regression_model.pkl", "rb")
+pickle_in = open("classification_model.pkl", "rb")
 classifier = dill.load(pickle_in)
 
 
