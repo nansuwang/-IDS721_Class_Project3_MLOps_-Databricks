@@ -19,6 +19,6 @@ The dataset is from Kaggle. https://www.kaggle.com/datasets/dongeorge/beer-consu
 6. CI workflow is built in this assignment
 
 ## Advantages
-1. It could cover almost ALL processes in traditional machine learning workflow, including EDA, preprocessing, train/validation/test split, hyper-parameters tuning, model evaluation. Almost ALL are automated.
-2. The model building process could be reproduce on local machine. I show this process using "model_reproduce.ipynb".
-3. The real-time and batch service in Databricks is convenient. The model could also be downloaded for other services like AppRunner. The codes for downloading the model are provided in the "List Models.py". The model is also provided in the "classification_model.pkl".
+1. It could cover almost ALL processes in traditional machine learning workflow, including EDA, preprocessing, train/validation/test split, hyper-parameters tuning, and model evaluation. Almost ALL are automated.
+2. The model building process could be reproduced on local machine. I show this process using "model_reproduce.ipynb".
+3. The real-time and batch services in Databricks are convenient. The model could also be downloaded for other services like AppRunner. The codes for downloading the model are provided in the "List Models.py". The model is also provided in the "classification_model.pkl".
