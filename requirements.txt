@@ -16,4 +16,5 @@ black
 requests
 dill
 databricks
-databricks-automl
+databricks-automl-runtime
+holidays
