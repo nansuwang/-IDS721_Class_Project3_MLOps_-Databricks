@@ -12,11 +12,11 @@ The dataset is from Kaggle. https://www.kaggle.com/datasets/dongeorge/beer-consu
 
 ## Workflow
 1. The working environment is in Databricks. The repo was integrated with Github.
-2. The data is wrangled using "preprocessing.py"
-3. The cleaned data is performed Auto-ML process using Databricks Azure
-4. The best model is registered
-5. The service is provided using Databricks (For saving credit, batch inference was used in the demo. But real-time service could be easily deployed)
-6. CI workflow is built in this assignment
+2. The data was wrangled using "preprocessing.py"
+3. The cleaned data was performed Auto-ML process using Databricks Azure
+4. The best model was registered
+5. The service was provided using Databricks (For saving credit, batch inference was used in the demo. But real-time service could be easily deployed)
+6. CI workflow was built in this assignment
 
 ## Advantages
 1. It could cover almost ALL processes in traditional machine learning workflow, including EDA, preprocessing, train/validation/test split, hyper-parameters tuning, and model evaluation. Almost ALL are automated.
