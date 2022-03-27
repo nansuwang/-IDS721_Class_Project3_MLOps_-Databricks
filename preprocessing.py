@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 
 df = pd.read_csv("consumo_cerveja.csv")
@@ -20,8 +19,8 @@ df.rename(
 
 df.drop("Date", axis=1, inplace=True)
 
-# drop empty cols
-df = df.dropna()
+# drop empty rows
+# df = df.dropna()
 
 # clean the data and frame the data types
 df["temp_median_c"] = df["temp_median_c"].str.replace(",", ".")
