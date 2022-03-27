@@ -1,5 +1,7 @@
 # IDS721 Class Project3 MLOps with Databricks
 
+[![CI with Github Actions](https://github.com/nansuwang/IDS721_Class_Project3_MLOps_-Databricks/actions/workflows/main.yml/badge.svg)](https://github.com/nansuwang/IDS721_Class_Project3_MLOps_-Databricks/actions/workflows/main.yml)
+
 ## Introduction
 It is a demo project for assignment in IDS721 course.
 A AutoML model using Databricks Azure
